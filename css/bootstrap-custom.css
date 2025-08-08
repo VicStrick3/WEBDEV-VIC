@@ -1,0 +1,39 @@
+/* BYU Brand Colors */
+:root {
+  --byu-blue: #002E5D;
+  --byu-royal: #0057B8;
+  --byu-white: #FFFFFF;
+  --byu-gray: #A2AAAD;
+}
+
+/* Navbar & Footer */
+.bg-byu-blue {
+  background-color: var(--byu-blue) !important;
+}
+.bg-byu-royal {
+  background-color: var(--byu-royal) !important;
+}
+.text-byu-blue {
+  color: var(--byu-blue) !important;
+}
+
+/* Card Borders */
+.card.border-secondary {
+  border-color: var(--byu-gray) !important;
+}
+
+/* Badge Override */
+.badge.bg-byu-royal {
+  background-color: var(--byu-royal) !important;
+}
+
+/* Override link hover */
+a.nav-link:hover {
+  color: var(--byu-gray) !important;
+}
+
+/* Offset the body content by the height of the fixed navbar (≈56px by default) */
+body {
+  padding-top: 56px;
+}
+
